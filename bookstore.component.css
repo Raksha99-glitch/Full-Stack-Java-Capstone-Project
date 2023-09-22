@@ -1,0 +1,117 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13pt;
+    background-color: #f02b2b;
+}
+
+h1 {
+    margin: 50px;
+    margin-top: 50px;
+    font-weight:bolder;
+    font-size: 25pt;
+    background-color: rgb(235, 217, 164);
+}
+
+table, tr, th, td {
+    border-collapse: collapse;
+    border-style: none;
+}
+
+table {
+    min-width: 70%;
+    text-align: center;
+    border: 2px solid #aad4d4;
+    margin-bottom: 100px;
+    position: left;
+}
+
+
+table > thead > tr > th {
+    padding: 10px 10px;
+    background-color: #1f8015;
+}
+
+table > thead > tr > th:last-child, table > tbody > tr > td:last-child {
+    text-align: center;
+    padding-right: 5px;
+}
+
+table > tbody > tr > td {
+    padding: 5px 10px;
+}
+
+table > tbody > tr:nth-child(even) > td {
+    background-color: #b4d327;
+}
+
+table > tbody > tr:last-child {
+    border: 2px solid #193857;
+}
+
+table > tbody > tr:last-child > td {
+    background-color: rgb(17, 58, 73);
+}
+
+button {
+    margin: 5px 10px;
+    padding: 5px;
+    font-size: 10pt;
+    color:rgb(207, 205, 220)
+}
+
+button#edit:hover {
+    color: blue;
+}
+
+button#del:hover, button#clr:hover, button#cncl:hover { 
+    color: rgb(38, 72, 61);
+}
+
+button#add:hover, button#updt:hover {
+    color: green;
+}
+
+input, input:focus, select {
+    padding: 10px;
+    outline: none;
+    border:none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button, select {
+  -webkit-appearance: none;
+  margin: 1;
+}
+
+input[type=number] {
+    max-width: 6ch;
+}
+
+select, input#bknm {
+    padding: 0px;
+    margin: 0px;
+}
+
+select > option {
+    font-size: 15pt;
+}
+
+.ltgr {
+    color: rgb(44, 26, 26);
+}
+
+select, input[type=number], #bknm, #athr {
+    background-color: rgb(176, 180, 94);
+}
+
+#athr {
+    width: 10ch;
+}
+
+#bknm {
+    width: 15ch;
+}
+
